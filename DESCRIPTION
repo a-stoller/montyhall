@@ -1,0 +1,14 @@
+Package: montyhall
+Title: Plays the Monty Hall Problem Game
+Version: 1.0.0.9000
+Authors@R: 
+    person("Ashley", "Daniels", , "aldani14@asu.edu", role = c("aut", "cre"),
+           )
+Description: Provides a set of functions that contain the steps to play the Monty Hall Problem game, where there are 3 doors, containing 1 car, and 2 goats. A contestant selects 1 of the 3 doors, a host opens a door to reveal a goat, then the contestant is given the opportunity to switch to the remaining door. Finally, the host determines if the contestant has won a car or not. This package can play one game at a time, or play `n` number of games as determined by you. This can generate largeamounts of data to be used to determine the best strategy of playing the Monty Hall Problem game. 
+Depends:
+    dplyr
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
